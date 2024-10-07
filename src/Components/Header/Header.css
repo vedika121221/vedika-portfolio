@@ -1,0 +1,28 @@
+.nav-Link li {
+ 
+}
+
+nav {
+  /* background-color: #070b1f; */
+  /* background-color: aqua; */
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-Link li:hover {
+  /* color: white; */
+  cursor: pointer;
+}
+
+.nav-Link li:active {
+  /* color: blueviolet; */
+}
+
+.nav-Link li > a:active {
+  /* color: blueviolet; */
+}
+
+.toggleMenu {
+  background-color:white;
+}
